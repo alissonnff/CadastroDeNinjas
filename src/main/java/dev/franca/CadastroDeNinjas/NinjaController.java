@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController // Controller
 @RequestMapping // Anotation para as rotas
 
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasvindas") // Anotation que "pega" informações do meu metodo;
     public String boasVindas(){
